@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from './material.module';
 import { AppComponent } from './app.component';
@@ -9,6 +9,7 @@ import { Xml1Component } from './xml1/xml1.component';
 import { Xml2Component } from './xml2/xml2.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     Xml1Component,
     Xml2Component,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    SidenavListComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,6 @@ import { HeaderComponent } from './header/header.component';
     MaterialModule
   ],
   providers: [],
-  bootstrap: [AppComponent, HeaderComponent, HomeComponent]
+  bootstrap: [AppComponent, HeaderComponent, HomeComponent, SidenavListComponent]
 })
 export class AppModule { }
