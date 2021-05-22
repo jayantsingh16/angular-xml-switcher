@@ -10,6 +10,7 @@ import { Xml2Component } from './xml2/xml2.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
+
 @NgModule({
   declarations: [
     AppComponent,
