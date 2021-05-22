@@ -28,6 +28,9 @@ import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
     MaterialModule
   ],
   providers: [],
-  bootstrap: [AppComponent, HeaderComponent, HomeComponent, SidenavListComponent]
+  bootstrap: [
+    AppComponent,
+    HeaderComponent
+  ]
 })
 export class AppModule { }
